@@ -1,7 +1,7 @@
 from openai import  OpenAI
 
 
-API=  "AIzaSyBzxxo2L-6zL5Gt9wq6v0IvmH-8aQJnxbo"
+API=  "YOUR API KEY"
 base_url= "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 Model ="gemini-2.0-flash-exp"
