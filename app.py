@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/market", methods = ["POST"])
 def market():
-    ques = request.files.get("text")
+    ques = request.form.get("text")
 
     result = gen.create_completion(ques)
 
